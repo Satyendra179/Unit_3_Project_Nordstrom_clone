@@ -1,0 +1,102 @@
+#futter{
+    font-family: 'Times New Roman';
+    width: 98%;
+    height: 500px;
+    margin: 20px auto;
+    display: grid;
+    justify-content: center;
+
+    grid-template-columns: repeat(1,1fr);
+    /* grid-column-end: ; */
+    font-size:20px;
+
+    gap: 30px;
+    background-color: rgb(249,249,249);
+    /* margin:20px auto; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+#futter1{
+    display: flex;
+    /* width: 70%; */
+    gap: 10px;
+    
+}
+.futter{
+    width: 20%;
+    
+}
+.futter h2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transform: scale(1.4);
+
+}
+.futter p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transform: scale(1.4);
+
+
+}
+
+.fa-brands {
+    margin: 20px auto;
+    font-size: 20px;
+    padding-top: 5px;
+    width: 30px;
+    height:25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    border:1px solid#0e0e0f;
+    color: #101112;
+    border-radius: 80%;
+  }
+  .fa-instagram {
+    border:1px solid#0e0e0f;
+    color: #101112;
+    border-radius: 80%;
+  }
+  .fa-pinterest {
+    border:1px solid#0e0e0f;
+    color: #101112;
+    border-radius: 80%;
+  }
+  .fa-brands:hover{
+    transform: scale(1.4);
+  }
+  #futter2{
+
+    padding-top: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+  }
+  #top{
+     font-size: 30px;
+     background-color: white;
+  }
+  #lastpar{
+    display:inline-block;
+  }
+ 
+ 

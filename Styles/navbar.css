@@ -1,0 +1,106 @@
+
+*{
+    margin: 0;
+    font-family:monospace;
+}
+
+
+#logo{
+    width:20%;
+    padding-left: 20px;
+    padding-top: 50px;;
+}
+#navbar{
+    width:98%;
+    height: 180px;
+    margin: auto;
+}
+#nav1{
+    width:100%;
+    height: 55px;
+    background-color: black;
+    margin-bottom: 10px;
+    color: white;
+    margin: auto;
+    display:flex ;
+    justify-content: space-evenly;
+}
+#nav11{
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    margin-left: 150px;
+}
+#nav11 p{
+    font-size: 20px;
+}
+#nav1 a{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 50px;
+    
+}
+#navbar >div{
+    display: flex;
+    justify-content: space-between;
+}
+#nav2{
+    padding-top: 20px;
+}
+#search_box{
+    width: 60%;
+    height: 60px;
+    border: 1px solid black;
+    margin-top: 25px;
+    /* border-radius:20px ; */
+    
+}
+
+#bag img{
+height: 50px;
+}
+#bag_value{
+    margin-right: 100px;
+
+}
+#signin{
+    width: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-top: 70px;
+}
+#cart a img{
+    width: 50px;
+    padding-top: 40px;
+}
+#line{
+margin-top: 30px;
+
+}
+#nav3{
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+#nav3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav3 a:hover{
+    color: black;
+    text-decoration: underline;
+    
+    /* font-size: 20px; */
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+#nav3 :nth-child(1) a{
+    color: red;
+}
+#divsign{
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}

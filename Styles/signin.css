@@ -1,0 +1,34 @@
+#sign{
+    justify-content: center;
+    padding: 20px;
+width: 40%;
+height: 700px;
+ margin: auto;
+ font-size: 20px;
+ margin-top:50px;
+ margin-bottom:100px ;
+border: 1px lightgray;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+/* background: scroll; */
+/* filter: background-blur(8px); */
+/* -webkit-filter: background-blur(8px); */
+}
+#sign :nth-child(2){
+    font-size: 30px;
+}
+
+#submit{
+    width: 90%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+form{
+    /* display: block; */
+    justify-content: center;
+    margin: 10px auto;
+}
+form input{
+    width: 80%;
+    height: 50px;
+}
